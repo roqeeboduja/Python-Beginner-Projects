@@ -1,24 +1,24 @@
-# print("Hello!, Welcome to your menu system.")
+print("Hello!, Welcome to your menu system.")
 
-# name = input("Enter your name? ")
+name = input("Enter your name? ")
 
-# print(f"Hello! {name}")
+print(f"Hello! {name}")
 
-# menu = ["1. Say Hello", "2. Tell a joke", "3. Exit"]
+menu = ["1. Say Hello", "2. Tell a joke", "3. Exit"]
 
-# while True:
+while True:
 
-#     for i in menu:
-#         print(i)
+    for i in menu:
+        print(i)
 
-#     choice = int(input("Enter your choice: "))
+    choice = int(input("Enter your choice: "))
 
-#     if choice == 1:
-#         print("Hello")
-#     elif choice == 2:
-#         print("A fool will laugh when nothing is funny.")
-#     elif choice == 3:
-#         print("Thank you.")
-#         break
-#     else:
-#         print("Invalid input")
+    if choice == 1:
+        print("Hello")
+    elif choice == 2:
+        print("A fool will laugh when nothing is funny.")
+    elif choice == 3:
+        print("Thank you.")
+        break
+    else:
+        print("Invalid input")
