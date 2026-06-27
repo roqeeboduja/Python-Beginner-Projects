@@ -1,0 +1,20 @@
+pwd = input("Enter a master password: ")
+
+def view():
+    pass
+
+def add():
+    pass
+
+while True:
+    mode = input("Would you like to add a new password or \nview existing ones (view, add)?, \npress q to quit ").lower()
+    if mode == "q":
+        break
+
+    if mode == "view":
+        view()
+    elif mode == "add":
+        add()
+    else:
+        print("Invalid mode.")
+        continue
